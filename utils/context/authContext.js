@@ -44,6 +44,7 @@ const AuthProvider = (props) => {
           setUser(userObj);
         });
       } else {
+        setOAuthUser(false);
         setUser(false);
       }
     }); // creates a single global listener for auth state changed
