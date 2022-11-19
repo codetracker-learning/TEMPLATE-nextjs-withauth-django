@@ -1,12 +1,8 @@
-# React/Next.js Template
-
-[See Live Demo of this Template](https://drt-next-js-template.netlify.app/)
+# React/Next.js Django Auth Template
 
 ## Topics
 - [Get Started](#getting-started)
 - [Starting the Project](#starting-the-project)
-- [Using axios](#using-axios)
-- [Deploying on Netlify](#deploying-on-netlify)
 ___
 ## Getting Started
 ### Use Template
@@ -40,36 +36,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - If you see the following error, you did not follow all the setup steps correctly and failed to add your Firebase creds. Go back and do that NOW.
 
 <img width="1043" alt="Screen Shot 2022-07-06 at 11 18 45 AM" src="https://user-images.githubusercontent.com/29741570/177612501-c2628f18-4bbd-4de9-aae6-27ffba1172d6.png">
-
-### Using Axios
-> For every file you will need to make an XHR request in, you will need to require Axios
-```js
-import axios from 'axios';
-
-const examplePromise = () => {
-  axios.get('http://localhost:3001/example')
-    .then((data) => {
-      console.warn(data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
-});
-```
-
-### Deploying on Netlify
-Netlify will automatically detect your project and prepopulate the settings, but should something go wrong and it does not, here are the commands:
-
-- Build Command: `npm run build`
-- Publish directory: `.next`
-
-#### Additional Steps to Take on Netlify
-- Add Environmental Variables
-    - Any Enviromental variables you are using in your `.env` file should be added to Netlify. 
-        - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there.
-
-- Update Firebase URL Settings
-    - In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
         
 ## Learn More about Next.js
 To learn more about Next.js, take a look at the following resources:
