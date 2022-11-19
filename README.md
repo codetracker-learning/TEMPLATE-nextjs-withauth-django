@@ -3,7 +3,7 @@
 [See Live Demo of this Template](https://drt-next-js-template.netlify.app/)
 
 ## Topics
-- [Get Started](#get-started)
+- [Get Started](#getting-started)
 - [Starting the Project](#starting-the-project)
 - [Using axios](#using-axios)
 - [Deploying on Netlify](#deploying-on-netlify)
